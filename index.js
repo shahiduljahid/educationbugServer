@@ -8,8 +8,8 @@ const port = 4000;
  const db = mysql.createPool({
 
   host:"localhost" ,
-  user: 'username',
-  password: 'password',
+  user: 'root',
+  password: 'root123',
   database: "educationbug"
 
  })
